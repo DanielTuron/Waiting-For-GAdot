@@ -37,7 +37,7 @@ And here are the results found so far, for **400 Generations**, **1000 Generatio
 <img src="Results/Nemo/1000 Generations.jpg" alt="drawing" width="200"/>
 <img src="Results/Nemo/3500 Generations.jpg" alt="drawing" width="200"/>
 
-The population was continuing to improve each generation still at this point, and could likely benefit from several thousand more generations. I would like to come back to this particular population again in the future and will update this page accordingly.
+The fitness was continuing to improve each generation still at this point, and could likely benefit from several thousand more generations. I would like to come back to this particular population again in the future and will update this page accordingly.
 
 ### Full Background Images
 The goal is for Waiting For GAdot to be able to handle fullscale images as well as pop-art. This is still in early testing on the following image.
@@ -45,3 +45,7 @@ The goal is for Waiting For GAdot to be able to handle fullscale images as well 
 <img src="MoonLight/MoonLight.jpg" alt="Original" width="200"/>
 
 Results will (hopefully) be posted here in the near future
+
+## Run Waiting For GAdot yourself!
+
+This can be done very easily! Find an image you would like to recreate (Nemo was of size 420x370 pixels) and add that into a project folder. See the Nemo project folder for an example. Then, go to the startProject.py file and simply follow the instructions! Your population will periodically get saved in a pickle inside your project folder. To resume a run at a later time, go to loadPop.py and point towards this pickle file.
