@@ -12,9 +12,9 @@ breedingFunction = bf.breed
 selectionFunction = sf.tournamentSelection
 
 # Create your project folder, and move the image into the folder
-projectFolderName = 'MoonLight'
-refrenceImageName = 'MoonLight.jpg'
-pickleName = "pop2.obj"
+projectFolderName = 'Nemo'
+refrenceImageName = 'Nemo.png'
+pickleName = "pop.obj"
 
 start_time = time.time()
 P = Population(refrenceImageName,mutationFunction,breedingFunction,selectionFunction,fitnessFunction,projectFolderName,pickleName=pickleName)
