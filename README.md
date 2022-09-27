@@ -36,9 +36,11 @@ And here are the results found so far, for **400 Generations**,
 <img src="Results/Nemo/400 Generations.jpg" alt="drawing" width="200"/>
 
 **1000 Generations**,
+
 <img src="Results/Nemo/1000 Generations.jpg" alt="drawing" width="200"/>
 
 and **3500 Generations**.
+
 <img src="Results/Nemo/3500 Generations.jpg" alt="drawing" width="200"/>
 
 The fitness was continuing to improve each generation still at this point, and could likely benefit from several thousand more generations. I would like to come back to this particular population again in the future and will update this page accordingly.
