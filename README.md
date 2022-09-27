@@ -22,25 +22,29 @@ The fitness is calculated by summing the 'distance' between the refrence image, 
 Note: this fitness function has negative values, with an ideal fitness of 0. This is not an issue for rank based selection such as the one reccomended for this project But if you want to use a fitness based selection, you will likely have to adjust by something such as... Taking 1 - (the ratio of the observed 'distance' to the maximum possible distance.)
 
 ## Results
-Because this is a recent project, there is still more testing to be done, I will update this with results.
+Because this is a recent project, there is still more testing to be done, I will update this with results as they come.
 ### Pop Images/Icons
-A good degree of success has been found using small graphics with my trial on small images with white background.
+A good degree of success has been found using with my trial on small graphics with white background. (For other background colors simply fill the backdrop with that color in the fitness function)
 
 Here is the image I did my tests with...
 
 <img src="Nemo/nemo.png" alt="Original" width="200"/>
 
-And here are the results found so far, for **400 Generations**, **1000 Generations**, and **3500 Generations**, respectively...
+And here are the results found so far, for **400 Generations**,
 
 
 <img src="Results/Nemo/400 Generations.jpg" alt="drawing" width="200"/>
+
+**1000 Generations**,
 <img src="Results/Nemo/1000 Generations.jpg" alt="drawing" width="200"/>
+
+and **3500 Generations**.
 <img src="Results/Nemo/3500 Generations.jpg" alt="drawing" width="200"/>
 
 The fitness was continuing to improve each generation still at this point, and could likely benefit from several thousand more generations. I would like to come back to this particular population again in the future and will update this page accordingly.
 
 ### Full Background Images
-The goal is for Waiting For GAdot to be able to handle fullscale images as well as pop-art. This is still in early testing on the following image.
+The goal for Waiting For GAdot is to be able to handle fullscale images as well as pop-art. This is still in early testing on the following image.
 
 <img src="MoonLight/MoonLight.jpg" alt="Original" width="200"/>
 
